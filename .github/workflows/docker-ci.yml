@@ -30,7 +30,7 @@ jobs:
 
           cache: maven 
           
-          cache-key: v1 
+          cache-version: v1
           
       - name: 3. Ejecutar Pruebas Unitarias
         run: mvn test -B
